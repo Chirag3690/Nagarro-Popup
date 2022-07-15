@@ -1,0 +1,30 @@
+#box{
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body{
+    background-color: aqua;
+}
+
+#box.show{
+    visibility: visible;
+}
+#cross {
+    cursor: pointer;
+    color: black;
+}
+#close{
+    font-size: 20px;
+    
+    float: right;
+    border: none;
+    background-color: bisque;
+}
+
+#close:hover{
+    background-color: rgb(155, 75, 75);
+    color: white;
+}
